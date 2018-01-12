@@ -1,6 +1,6 @@
 # Back to the Drawing Board: Revisiting the Design of Optimal Location Privacy-preserving Mechanisms
 
-In our CCS 2017 paper [Back to the Drawing Board](https://arxiv.org/pdf/1705.08779.pdf), we evaluate the performance of different location privacy-preserving mechanisms in both a realistic continuous scenario and a synthetic discrete scenario, in terms of different privacy metrics. This repository contains the Matlab files we used to perform this evaluation. The experiments are divided into two folders: `MatlabCCS17_Cont` and `MatlabCCS217_Disc`.
+In our CCS 2017 paper [Back to the Drawing Board](https://arxiv.org/pdf/1705.08779.pdf), we evaluate the performance of different location privacy-preserving mechanisms in both a realistic continuous scenario and a synthetic discrete scenario, in terms of different privacy metrics. This repository contains the Matlab files we used to perform this evaluation. The experiments are divided into two folders: `MatlabCCS17_Cont` and `MatlabCCS17_Disc`.
 
 The former contains the files to run the experiments of the continuous scenario, explained in Section 5.1 in the paper, that produces the results in Figures 4, 5, 6, 7 and 11. The latter contains the files to run the experiments of the discrete synthetic scenario explained in Section 5.2 in the paper (Figures 9 and 10).
 
@@ -49,7 +49,7 @@ When the mechanism has a discrete number of outputs and inputs (i.e., in all the
 In order to select from which dataset we want to plot the results, comment/uncomment the corresponding line at the beginning of the script.
 
 
-## DISCRETE SYNTHETIC EXPERIMENT (`MatlabCCS_Discrete`)
+## DISCRETE SYNTHETIC EXPERIMENT (`MatlabCCS17_Disc`)
 
 In this experiment, we evaluate the performance of Shokri's optimal mechanism [3*], ExPost mechanism and the Coin mechanism, in a synthetic discrete scenario. The map is a 5x5 grid of locations with a label assigned to each one. We measure quality loss as the average loss using the Euclidean distance, and measure privacy as:
 1. The average adversary error using the Euclidean distance.
