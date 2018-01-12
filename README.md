@@ -4,7 +4,7 @@ In our CCS 2017 paper [Back to the Drawing Board](https://arxiv.org/pdf/1705.087
 
 The former contains the files to run the experiments of the continuous scenario, explained in Section 5.1 in the paper, that produces the results in Figures 4, 5, 6, 7 and 11. The latter contains the files to run the experiments of the discrete synthetic scenario explained in Section 5.2 in the paper (Figures 9 and 10).
 
-For further questions, please contact simonoya@gts.uvigo.es or any or the authors of the paper.
+For further questions, please contact simonoya@gts.uvigo.es or any of the authors.
 
 ## CONTINUOUS SCENARIO (`MatlabCCS17_Cont`)
 
